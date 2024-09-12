@@ -246,9 +246,9 @@ const MyProfile = () => {
                   <Select
                     {...field}
                     selectedKeys={[field.value]}
-                    label="Industry Branch"
+                    label="Industry"
                     labelPlacement="outside"
-                    placeholder="Enter your industry branch"
+                    placeholder="Enter your industry"
                     isInvalid={!!errors.industryBranch}
                     errorMessage={errors.industryBranch?.message}
                     isDisabled={isLoading}

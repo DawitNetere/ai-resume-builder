@@ -86,7 +86,7 @@ const CourseRecommendations = () => {
                     <Select
                       {...field}
                       selectedKeys={[field.value]}
-                      label="Enter your industry branch"
+                      label="Enter your industry"
                       isInvalid={!!errors.industryBranch}
                       errorMessage={errors.industryBranch?.message}
                       isDisabled={loading}

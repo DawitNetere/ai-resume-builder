@@ -107,7 +107,7 @@ const NetworkingEvents = () => {
                         <Select
                           {...field}
                           selectedKeys={[field.value]}
-                          label="Enter your industry branch"
+                          label="Enter your industry"
                           isInvalid={!!errors.industryBranch}
                           isDisabled={loading}
                         >

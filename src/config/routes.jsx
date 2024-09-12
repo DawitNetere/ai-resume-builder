@@ -36,8 +36,8 @@ const routes = {
       icon: <LayoutDashboardIcon />,
     },
     jobHuntPlanner: {
-      title: "Job Hunt Planner",
-      path: "/app/job-hunt-planner",
+      title: "Plan My Job Hunt",
+      path: "/app/plan-my-job-hunt",
       icon: <PlaneIcon />,
     },
     jobMatching: {
@@ -46,18 +46,18 @@ const routes = {
       icon: <BriefcaseBusinessIcon />,
     },
     resumeShiner: {
-      title: "Resume Shiner",
-      path: "/app/resume-shiner",
+      title: "Shine My Resume",
+      path: "/app/shine-my-resume",
       icon: <FileBadgeIcon />,
     },
     interviewSimulator: {
-      title: "Interview Simulator",
-      path: "/app/interview-simulator",
+      title: "Interview Me",
+      path: "/app/interview-me",
       icon: <MessagesSquareIcon />,
     },
     networkingEvents: {
-      title: "Networking Events",
-      path: "/app/networking-events",
+      title: "Network Like a Pro",
+      path: "/app/network-like-a-pro",
       icon: <HandshakeIcon />,
     },
     resources: {
