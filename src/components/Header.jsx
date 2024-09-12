@@ -29,13 +29,9 @@ const Header = ({ isUserLoggedIn }) => {
           <nav className="hidden sm:flex items-center gap-8">
             <ul className="flex items-center gap-8">
               <li>
-                <Link
-                  href={routes.landing.features.path}
-                  size="sm"
-                  color="foreground"
-                >
+                <a href={routes.landing.features.path} className="text-sm">
                   {routes.landing.features.title}
-                </Link>
+                </a>
               </li>
             </ul>
             <div className="flex items-center gap-4">
@@ -89,9 +85,10 @@ const Header = ({ isUserLoggedIn }) => {
               <DropdownSection showDivider>
                 <DropdownItem
                   key="features"
-                  href={routes.landing.features.path}
                 >
-                  {routes.landing.features.title}
+                  <a href={routes.landing.features.path} className="text-sm">
+                    {routes.landing.features.title}
+                  </a>                
                 </DropdownItem>
               </DropdownSection>
               {isUserLoggedIn ? (
