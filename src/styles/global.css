@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  html,
+  body,
+  #root,
+  #root > div {
+    @apply h-full bg-primary-foreground;
+  }
+
+  a,
+  label {
+    @apply cursor-pointer;
+  }
+}

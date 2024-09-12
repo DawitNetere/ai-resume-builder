@@ -1,0 +1,58 @@
+{
+  "name": "ai-resume-builder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && firebase deploy --only hosting",
+    "postinstall": "find node_modules/hast-util-raw -type f -name '*.js' -exec sed -i '' '/^\\/\\/\\# sourceMappingURL=.*/d' {} +"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@nextui-org/react": "^2.4.6",
+    "axios": "^1.7.4",
+    "buffer": "^6.0.3",
+    "firebase": "^10.13.1",
+    "framer-motion": "^11.3.30",
+    "lucide-react": "^0.435.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.53.0",
+    "react-markdown": "^9.0.1",
+    "react-pdf": "^9.1.0",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "rehype-raw": "^7.0.0",
+    "sonner": "^1.5.0",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@tailwindcss/typography": "^0.5.14",
+    "tailwindcss": "^3.4.10"
+  }
+}
