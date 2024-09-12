@@ -70,7 +70,7 @@ const JobHuntPlanner = () => {
       <Card className="min-h-full">
         <CardHeader className="flex flex-col items-start p-0">
           <ModuleHeader
-            title="Job Hunt Planner"
+            title="Plan My Job Hunt"
             description="Plan your job hunt to make sure you stay on track."
             icon={<PlaneIcon className="w-8 h-8 stroke-primary-500" />}
           />

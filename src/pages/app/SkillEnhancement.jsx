@@ -40,7 +40,7 @@ const SkillEnhancement = () => {
       <Card className="min-h-full">
         <CardHeader className="flex flex-col items-start p-0">
           <ModuleHeader
-            title="Skill Enhancement"
+            title="Soften My Skills"
             description="Identify soft skills gaps and get advices on how to improve them."
             icon={<StarIcon className="w-8 h-8 stroke-primary-500" />}
           />

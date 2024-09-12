@@ -74,7 +74,7 @@ const NetworkingEvents = () => {
       <Card className="min-h-full">
         <CardHeader className="flex flex-col items-start p-0">
           <ModuleHeader
-            title="Networking Events"
+            title="Network Like a Pro"
             description="Take a look at the upcoming networking events in your area."
             icon={<HandshakeIcon className="w-8 h-8 stroke-primary-500" />}
           />

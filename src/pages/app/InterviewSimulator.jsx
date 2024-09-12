@@ -95,7 +95,7 @@ const InterviewSimulator = () => {
       <Card className="min-h-full">
         <CardHeader className="flex flex-col items-start p-0">
           <ModuleHeader
-            title="Interview Simulator"
+            title="Interview Me"
             description="Check your skills and prepare for your next interview."
             icon={<MessagesSquareIcon className="w-8 h-8 stroke-primary-500" />}
           />

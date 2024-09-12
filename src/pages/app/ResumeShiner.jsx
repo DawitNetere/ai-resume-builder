@@ -34,7 +34,7 @@ const ResumeShiner = () => {
       <Card className="min-h-full">
         <CardHeader className="flex flex-col items-start p-0">
           <ModuleHeader
-            title="Resume Shiner"
+            title="Shine My Resume"
             description="Get suggestions on how to improve your resume."
             icon={<FileBadgeIcon className="w-8 h-8 stroke-primary-500" />}
           />

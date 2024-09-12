@@ -71,8 +71,8 @@ const routes = {
       icon: <GraduationCapIcon />,
     },
     skillEnhancement: {
-      title: "Skill Enhancement",
-      path: "/app/skill-enhancement",
+      title: "Soften My Skills",
+      path: "/app/soften-my-skills",
       icon: <StarIcon />,
     },
     myProfile: {
