@@ -14,7 +14,7 @@ module.exports = functions.https.onRequest(async (req, res) => {
       messages: [
         {
           role: "user",
-          content: `I'm looking for networking events in ${location} related to ${industryBranch}. Can you suggest some networking events in this area? Please provide the name of the event, the date, a brief description of the event and also a link if available. Return the information for up to 5 events. If you don't have access to real-time data, suggest the events you know about and are organized periodically. Return text in Markdown or HTML syntax without a block code, places to insert data, or any additional commentary and explanations. All links should open in a new tab, so you can use HTML syntax for this particular case.`,
+          content: `I'm looking for networking events in ${location} related to ${industryBranch} that are happening in the coming months of 2024. Can you suggest some networking events in this area? Please provide the name of the event, the date, a brief description of the event and also a link if available. Return the information for up to 5 events. If you don't have access to real-time data, suggest the events you know about and are organized periodically. Return text in Markdown or HTML syntax without a block code, places to insert data, or any additional commentary and explanations. All links should open in a new tab, so you can use HTML syntax for this particular case.`,
         },
       ],
     });
