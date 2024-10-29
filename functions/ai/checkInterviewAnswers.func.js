@@ -15,7 +15,7 @@ module.exports = functions.https.onRequest(async (req, res) => {
       messages: [
         {
           role: "user",
-          content: `I'm looking for interview summary related to ${industryBranch} for this position: ${position}. Can you check if my answers to the questions are correct? Return the description of every question's answer and also a general summary at the end. Return text in Markdown or HTML syntax without a block code, places to insert data, or any additional commentary and explanations. All links should open in a new tab, so you can use HTML syntax for this particular case. Questions and answers: ${questionsAndAnswers?.map((qa, index) => `Question ${index + 1}: ${qa.question} Answer ${index + 1}: ${qa.answer}`).join(";")}`,
+          content: `I'm looking for job interview feedback in ${industryBranch} field specifically in the position of : ${position}. Could you provide feedback on each question's clarity, relevance, and effectiveness for gauging my knowledge? Additionally, suggest me any improvements for making the questions more comprehensive or realistic for a tech interview setting. Return the description of every question's answer followed by suggested correct answer and also your general feedback at the end. Return text in Markdown or HTML syntax without a block code, places to insert data, or any additional commentary and explanations. All links should open in a new tab, so you can use HTML syntax for this particular case. Questions and answers: ${questionsAndAnswers?.map((qa, index) => `Question ${index + 1}: ${qa.question} Answer ${index + 1}: ${qa.answer}`).join(";")}`,
         },
       ],
     });
